@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # local apps
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
     # 3rd Party Apps
     'crispy_forms',
 ]
@@ -114,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
@@ -137,3 +138,4 @@ LOGOUT_REDIRECT_URL = 'home'
 
 # manages email on the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
